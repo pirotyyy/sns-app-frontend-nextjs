@@ -1,0 +1,37 @@
+.wrapper {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  background-color: #e4dccf;
+
+  .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    ul {
+      margin-bottom: 20px;
+    }
+
+    .logout_btn {
+      margin: 0 50px;
+      justify-content: center;
+      padding: 10px 0;
+      border: none;
+      font-size: 20px;
+      font-weight: 600;
+      color: white;
+      background-color: #014594;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0px 5px #243864;
+
+      &:active {
+        transform: translateY(5px);
+        box-shadow: none;
+      }
+    }
+  }
+}

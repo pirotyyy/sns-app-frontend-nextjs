@@ -1,0 +1,38 @@
+.wrapper {
+  border: solid 1px grey;
+  border-bottom: solid 3px black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  .container {
+    padding: 10px 20px 20px 20px;
+    .top {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      .prof_img {
+        height: 44px;
+        width: 44px;
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+      }
+      .user_info {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: black;
+
+        .userId {
+          font-size: 12px;
+          color: grey;
+        }
+      }
+    }
+
+    .main {
+      .text {
+        padding: 20px;
+      }
+    }
+  }
+}

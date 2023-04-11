@@ -1,0 +1,52 @@
+.wrapper {
+  border: solid 1px grey;
+  border-bottom: solid 3px black;
+  border-radius: 20px;
+  cursor: pointer;
+  .container {
+    padding: 20px;
+    form {
+      display: flex;
+      align-items: center;
+      .prof_img {
+        height: 44px;
+        width: 44px;
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+      }
+
+      .input_form {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 30px;
+        width: 70%;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        padding: 0 20px;
+        outline: none;
+
+        &:focus {
+          outline: solid 3px #ecd1a4;
+        }
+      }
+    }
+    .post_btn {
+      padding: 7px 20px;
+      border: none;
+      background-color: #5484ea;
+      color: white;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0px 3px #3943a0;
+
+      &:active {
+        transform: translateY(5px);
+        box-shadow: none;
+      }
+    }
+  }
+}
