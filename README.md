@@ -37,4 +37,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # sns-app-frontend-nextjs
-# sns-app-frontend-nextjs
+Nextjsを使ってSNSデモアプリのフロントエンドを作成しました。
+画像投稿やDM機能はこれから開発していこうと思ってます
